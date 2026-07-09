@@ -29,3 +29,33 @@ header nav a {
     color: black;
     font-size: 20px;
 }
+
+/* -------------- */
+
+.sobre-mim {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    gap: 80px;
+}
+
+.foto-pessoal {
+    border-radius: 50%;
+    height: 40vh;
+    width: 40vh;
+    object-fit: cover;
+}
+
+.sobre-mim-textos {
+    width: 30vw;
+    text-align: justify;
+}
+
+.sobre-mim-textos h2 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
