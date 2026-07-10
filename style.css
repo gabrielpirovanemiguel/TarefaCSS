@@ -103,14 +103,18 @@ header nav a:hover {
     padding: 0 10px 10px 10px;
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
+    justify-content: center;
     text-align: center;
     align-items: center;
     position: relative;
     animation: ease-in-out 0.9s;
 }
 
-.card
+.icone {
+    width: 50%;
+    height: auto;
+    margin-bottom: 20%;
+}
 
 .card-lista>li:hover {
     transform: scale(1.03);
