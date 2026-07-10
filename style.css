@@ -327,6 +327,18 @@ footer a {
 /* Responsividade */
 
 @media (max-width: 428px) {
+
+    header nav {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 12px;
+        text-align: center;
+    }
+
+    header nav a {
+        white-space: nowrap;
+    }
+
     .sobre-mim {
         flex-direction: column;
     }
