@@ -56,16 +56,16 @@ header nav a:hover {
     gap: 80px;
 }
 
-.foto-pessoal {
+.sobre-mim-textos {
+    width: 30vw;
+    text-align: justify;
+}
+
+.foto-pessoal img {
     border-radius: 50%;
     height: 40vh;
     width: 40vh;
     object-fit: cover;
-}
-
-.sobre-mim-textos {
-    width: 30vw;
-    text-align: justify;
 }
 
 .sobre-mim-textos h2 {
@@ -88,6 +88,11 @@ header nav a:hover {
     font-weight: bold;
 }
 
+.lista-hobbies {
+    display: flex;
+    flex-direction: column;
+}
+
 .lista-hobbies ul {
     display: flex;
     flex-direction: row-reverse;
@@ -100,6 +105,11 @@ header nav a:hover {
 .lista-linguas {
     display: flex;
     flex-direction: column;
+}
+
+.lista-linguas ol {
+    display: flex;
+    flex-direction: row;
 }
 
 .card-lista {
@@ -345,6 +355,17 @@ footer a {
 
     .sobre-mim {
         flex-direction: column;
+        align-items: start;
+        padding: 0 5%;
+    }
+
+    .foto-pessoal {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .sobre-mim-textos {
+        width: auto;
     }
 
     .foto-pessoal {
@@ -356,11 +377,24 @@ footer a {
         flex-direction: column;
     }
 
-    .card-lista {
+    .card-lista li {
+        width: 100%;
+    }
+
+    .lista-hobbies, .lista-linguas {
+        flex-direction: column;
+        padding: 0 5%;
+    }
+
+    .lista-hobbies h3, .lista-linguas h3 {
+        text-align: start;
+    }
+
+    .lista-hobbies ul {
         flex-direction: column;
     }
 
-    #ul-lista {
+    .lista-linguas ol {
         flex-direction: column;
     }
 
