@@ -5,8 +5,10 @@ body {
 }
 
 header {
-    height: 10vh;
+    min-height: 10vh;
+    height: auto;
     display: flex;
+    gap: 30%;
     flex-direction: row;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -327,11 +329,6 @@ footer a {
 /* Responsividade */
 
 @media (max-width: 428px) {
-
-    header {
-        height: auto;
-        min-height: 10vh;
-    }
 
     header h1 {
         font-size: 22px;
