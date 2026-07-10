@@ -88,6 +88,20 @@ header nav a:hover {
     font-weight: bold;
 }
 
+.lista-hobbies ul {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.lista-hobbies h3 {
+    text-align: end;
+}
+
+.lista-linguas {
+    display: flex;
+    flex-direction: column;
+}
+
 .card-lista {
     display: flex;
     flex-direction: row;
@@ -95,7 +109,7 @@ header nav a:hover {
     gap: 10px;
 }
 
-.card-lista>li {
+.card-lista li {
     background-color: rgb(206, 206, 206);
     border-radius: 5px;
     width: 15vh;
@@ -140,7 +154,6 @@ header nav a:hover {
     animation: ease-in-out 0.9s;
 }
 
-
 .pos {
     position: absolute;
     font-size: 82%;
@@ -149,15 +162,6 @@ header nav a:hover {
     color: white;
     margin-right: 70%;
     padding: 6% 5%;
-}
-
-#hobbies-texto {
-    text-align: end;
-}
-
-#ul-lista {
-    display: flex;
-    flex-direction: row-reverse;
 }
 
 /* Projeto */
