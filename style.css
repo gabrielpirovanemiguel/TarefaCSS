@@ -1,4 +1,5 @@
 @import url('./root.css');
+
 body {
     font-family: "Montserrat", sans-serif;
 }
@@ -15,6 +16,7 @@ header {
 }
 
 header h1 {
+    color: var(--nav-color);
     font-size: 30px;
     font-weight: bold;
 }
@@ -27,8 +29,15 @@ header nav {
 
 header nav a {
     text-decoration: none;
-    color: black;
+    color: var(--nav-color);
     font-size: 20px;
+    animation: ease-in-out 0.9s;
+}
+
+header nav a:hover {
+    transform: scale(1.05);
+    color: var(--color-hover);
+    animation: ease-in-out 0.9s;
 }
 
 /* SOBRE MIM */
@@ -95,8 +104,32 @@ header nav a {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
+    text-align: center;
     align-items: center;
     position: relative;
+    animation: ease-in-out 0.9s;
+}
+
+.card
+
+.card-lista>li:hover {
+    transform: scale(1.03);
+    animation: ease-in-out 0.9s;
+}
+
+#escala-3:hover {
+    transform: scale(1.05);
+    animation: ease-in-out 0.9s;
+}
+
+#escala-2:hover {
+    transform: scale(1.07);
+    animation: ease-in-out 0.9s;
+}
+
+#escala-1:hover {
+    transform: scale(1.09);
+    animation: ease-in-out 0.9s;
 }
 
 
@@ -104,7 +137,8 @@ header nav a {
     position: absolute;
     font-size: 85%;
     top: 0;
-    background-color: gray;
+    background-color: var(--primary-color);
+    color: white;
     margin-right: 75%;
     padding: 10% 5%;
 }
@@ -147,6 +181,12 @@ header nav a {
     width: 20vw;
     height: auto;
     border-radius: 10px;
+    animation: ease-in 0.9s;
+}
+
+.capa-projeto>img:hover {
+    transform: scale(1.01);
+    animation: ease-in 0.9s;
 }
 
 .capa-legenda {
@@ -156,6 +196,8 @@ header nav a {
     gap: 10px;
     padding-top: 2vh;
 }
+
+
 
 .capa-legenda>h4 {
     font-weight: bold;

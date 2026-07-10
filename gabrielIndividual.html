@@ -17,14 +17,14 @@
     <header>
         <h1>Gabriel Pirovane Miguel</h1>
         <nav>
-            <a href="">Quem sou</a>
-            <a href="">Hobbies</a>
-            <a href="">Projetos</a>
-            <a href="">Contato</a>
+            <a href="#quem-sou">Quem sou</a>
+            <a href="#hobbies">Hobbies</a>
+            <a href="#projetos">Projetos</a>
+            <a href="#contatos-form">Contato</a>
         </nav>
     </header>
     <main>
-        <section class="sobre-mim">
+        <section class="sobre-mim" id="quem-sou">
             <figure>
                 <img src="./img/fotoGabriel.jpg" width="350px" alt="Foto Gabriel" class="foto-pessoal">
             </figure>
@@ -43,7 +43,7 @@
 
         </section>
 
-        <section class="listas">
+        <section class="listas" id="hobbies">
             <div>
                 <h3 id="hobbies-texto">5 hobbies</h3>
                 <ul class="card-lista" id="ul-lista">
@@ -57,16 +57,16 @@
             <div>
                 <h3>Línguas que quero aprender futuramente</h3>
                 <ol class="card-lista">
-                    <li>
+                    <li id="escala-1">
                         <span class="pos">1</span>
                         <span>Japonês</span>
                     </li>
-                    <li>
+                    <li id="escala-2">
                         <span class="pos">2</span>
                         <span>Grego</span>
                     </li>
-                    <li>
-                        <span class="pos">3</span>
+                    <li id="escala-3">
+                        <span class="pos" id="escala-3">3</span>
                         <span>Latim</span>
                     </li>
                     <li><span>Francês</span></li>
@@ -75,7 +75,7 @@
             </div>
         </section>
 
-        <section class="projeto">
+        <section class="projeto" id="projetos">
             <figure>
                 <a href="https://open.spotify.com/intl-pt/album/36EqCisruTBN7RjBHrf695?si=rFKgsoTNSYOQhiGoNLqgJw"
                     class="capa-projeto" target="_blank">
@@ -107,7 +107,7 @@
             </div>
         </section>
 
-        <section class="contatos">
+        <section class="contatos" id="contatos-form">
             <div>
                 <h3>Entre em contato!</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem incidunt ea quibusdam, molestias quos
@@ -126,7 +126,8 @@
                 </div>
                 <div class="campo-form">
                     <label for="descricao">Descrição</label>
-                    <textarea name="descricao" placeholder="Descreva aqui..." style="resize: none;" cols="21" rows="10"></textarea>
+                    <textarea name="descricao" placeholder="Descreva aqui..." style="resize: none;" cols="21"
+                        rows="10"></textarea>
                     <br> <br>
                     <span id="btn-enviar"><input type="submit" value="Enviar"></span>
                 </div>
