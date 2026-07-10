@@ -433,4 +433,12 @@ footer a {
         flex-direction: column;
         padding: 0 5%;
     }
+
+    .texto-contato, .texto-contato>p {
+        width: 100%;
+    }
+
+    .form-contato {
+        width: 100%;
+    }
 }
