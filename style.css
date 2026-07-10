@@ -149,21 +149,6 @@ header nav a:hover {
     animation: ease-in-out 0.9s;
 }
 
-#escala-3:hover {
-    transform: scale(1.04);
-    animation: ease-in-out 0.9s;
-}
-
-#escala-2:hover {
-    transform: scale(1.05);
-    animation: ease-in-out 0.9s;
-}
-
-#escala-1:hover {
-    transform: scale(1.07);
-    animation: ease-in-out 0.9s;
-}
-
 .pos {
     position: absolute;
     font-size: 82%;
