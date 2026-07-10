@@ -416,9 +416,21 @@ footer a {
 
     .projeto {
         flex-direction: column;
+        padding: 0 5%;
+    }
+
+    .capa-projeto>img {
+        object-fit: cover;
+        width: 100%;
+        height: 20vh;
+    }
+    
+    .textos-projeto {
+        width: auto;
     }
 
     .contatos {
         flex-direction: column;
+        padding: 0 5%;
     }
 }
