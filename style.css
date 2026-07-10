@@ -342,7 +342,19 @@ footer a {
 
 @media (max-width: 428px) {
 
+    header {
+        height: auto;
+        min-height: 10vh;
+    }
+
+    header h1 {
+        font-size: 22px;
+        text-align: center;
+        width: 100%;
+    }
+
     header nav {
+        width: 100%;
         flex-wrap: wrap;
         justify-content: center;
         gap: 12px;
@@ -354,23 +366,25 @@ footer a {
     }
 
     .sobre-mim {
+        margin-top: auto;
         flex-direction: column;
-        align-items: start;
-        padding: 0 5%;
+        padding: 10% 5%;
     }
 
     .foto-pessoal {
         display: flex;
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .foto-pessoal img {
+        height: 20vh;
+        width: 20vh;
     }
 
     .sobre-mim-textos {
         width: auto;
-    }
-
-    .foto-pessoal {
-        height: 10vh;
-        width: 10vh;
     }
 
     .listas {
@@ -381,12 +395,14 @@ footer a {
         width: 100%;
     }
 
-    .lista-hobbies, .lista-linguas {
+    .lista-hobbies,
+    .lista-linguas {
         flex-direction: column;
         padding: 0 5%;
     }
 
-    .lista-hobbies h3, .lista-linguas h3 {
+    .lista-hobbies h3,
+    .lista-linguas h3 {
         text-align: start;
     }
 
