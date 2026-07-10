@@ -41,9 +41,12 @@ header nav a:hover {
     animation: ease-in-out 0.9s;
 }
 
+.icone-menu {
+    display: none;
+}
+
 .icone-menu img {
     width: 7vw;
-    display: none;
 }
 
 .menu {
@@ -474,6 +477,10 @@ footer a {
 
     header nav {
         display: none;
+    }
+
+    .icone-menu {
+        display: flex;
     }
 
     .icone-menu img {
