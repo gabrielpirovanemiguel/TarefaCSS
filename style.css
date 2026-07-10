@@ -1,3 +1,4 @@
+@import url('./root.css');
 body {
     font-family: "Montserrat", sans-serif;
 }
@@ -10,7 +11,7 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 28px 80px;
-    background-color: rgb(206, 206, 206);
+    background-color: var(--primary-color);
 }
 
 header h1 {
@@ -176,7 +177,7 @@ header nav a {
     width: 50%;
 }
 
-.contatos>div>p{
+.contatos>div>p {
     width: 80%;
 }
 
@@ -225,6 +226,7 @@ header nav a {
 .campo-form>textarea::placeholder {
     padding: 1% 0 0 2%;
 }
+
 #btn-enviar {
     margin-left: auto;
 }
@@ -237,3 +239,17 @@ header nav a {
     background-color: rgb(48, 48, 48);
     color: white;
 }
+
+/* Footer */
+
+footer {
+    height: 9vh;
+    background-color: rgb(206, 206, 206);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px
+}
+
+footer nav {}
