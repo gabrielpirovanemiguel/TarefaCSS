@@ -5,13 +5,13 @@ body {
 }
 
 header {
-    max-width: 100%;
     height: 10vh;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    flex-wrap: wrap;
     align-items: center;
-    padding: 28px 80px;
+    padding: 2% 8%;
     background-color: var(--primary-color);
 }
 
@@ -30,7 +30,7 @@ header nav {
 header nav a {
     text-decoration: none;
     color: var(--nav-color);
-    font-size: 20px;
+    font-size: 100%;
     animation: ease-in-out 0.9s;
 }
 
@@ -322,4 +322,37 @@ footer a {
     padding: 8px 16px;
     border: none;
     border-radius: 16px;
+}
+
+/* Responsividade */
+
+@media (max-width: 428px) {
+    .sobre-mim {
+        flex-direction: column;
+    }
+
+    .foto-pessoal {
+        height: 10vh;
+        width: 10vh;
+    }
+
+    .listas {
+        flex-direction: column;
+    }
+
+    .card-lista {
+        flex-direction: column;
+    }
+
+    #ul-lista {
+        flex-direction: column;
+    }
+
+    .projeto {
+        flex-direction: column;
+    }
+
+    .contatos {
+        flex-direction: column;
+    }
 }
