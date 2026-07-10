@@ -176,6 +176,10 @@ header nav a {
     width: 50%;
 }
 
+.contatos>div>p{
+    width: 80%;
+}
+
 .contatos>div>h3 {
     font-weight: bold;
     font-size: 20px;
@@ -190,3 +194,46 @@ header nav a {
     width: 100%;
 }
 
+.campo-form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.campo-form>label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.campo-form>input {
+    background-color: rgb(206, 206, 206);
+    height: 5vh;
+    border-radius: 16px;
+    border: none;
+}
+
+.campo-form>input::placeholder {
+    padding-left: 2%;
+}
+
+.campo-form>textarea {
+    background-color: rgb(206, 206, 206);
+    border-radius: 16px;
+    border: none;
+}
+
+.campo-form>textarea::placeholder {
+    padding: 1% 0 0 2%;
+}
+#btn-enviar {
+    margin-left: auto;
+}
+
+#btn-enviar>input {
+    border-radius: 16px;
+    border: none;
+    padding: 8px 16px;
+    font-size: 16px;
+    background-color: rgb(48, 48, 48);
+    color: white;
+}

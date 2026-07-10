@@ -109,7 +109,7 @@
 
         <section class="contatos">
             <div>
-                <h3>Feedbacks</h3>
+                <h3>Entre em contato!</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem incidunt ea quibusdam, molestias quos
                     perspiciatis adipisci eaque earum commodi praesentium dicta, id obcaecati libero tenetur nostrum
                     nobis molestiae fuga pariatur.</p>
@@ -117,14 +117,20 @@
 
             <form class="form-contato">
                 <div class="campo-form">
-                    <label for="nome">Nome completo</label>
+                    <label for="nome">Nome completo:</label>
                     <input type="text" placeholder="Nome completo" name="nome">
                 </div>
+                <div class="campo-form">
+                    <label for="assunto">Assunto:</label>
+                    <input type="text" placeholder="Assunto" name="assunto">
+                </div>
+                <div class="campo-form">
+                    <label for="descricao">Descrição</label>
+                    <textarea name="descricao" placeholder="Descreva aqui..." style="resize: none;" cols="21" rows="10"></textarea>
+                    <br> <br>
+                    <span id="btn-enviar"><input type="submit" value="Enviar"></span>
+                </div>
 
-                <label for="feedback">Feedback</label> <br>
-                <textarea name="feedback" placeholder="Feedback" style="resize: none;" cols="21" rows="10"></textarea>
-                <br> <br>
-                <input type="submit" value="Enviar">
             </form>
             <br>
         </section>
