@@ -292,6 +292,7 @@ header nav a:hover {
 }
 
 #btn-enviar {
+    margin-top: 20px;
     margin-left: auto;
 }
 
@@ -307,7 +308,7 @@ header nav a:hover {
 /* Footer */
 
 footer {
-    height: 9vh;
+    min-height: 9vh;
     background-color: var(--primary-color);
     display: flex;
     flex-direction: row;
@@ -440,5 +441,18 @@ footer a {
 
     .form-contato {
         width: 100%;
+    }
+
+    footer {
+        flex-direction: column-reverse;
+        height: auto;
+        align-items: center;
+        justify-content: center;
+        gap: 15px;
+        padding: 5% 0;
+    }
+
+    footer img {
+        height: 6vw;
     }
 }
