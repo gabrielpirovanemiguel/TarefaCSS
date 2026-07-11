@@ -75,7 +75,7 @@ header nav a:hover {
 
 .sobre-mim-textos {
     width: 30vw;
-    text-align: justify;
+    text-align: start;
 }
 
 .foto-pessoal img {
@@ -190,7 +190,7 @@ header nav a:hover {
     display: flex;
     flex-direction: column;
     padding-top: 10px;
-    gap: 60px;
+    gap: 50px;
 
 }
 
