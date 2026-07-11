@@ -60,7 +60,7 @@ header nav a:hover {
 /* SOBRE MIM */
 
 .main {
-    padding: 0 10% 0 10%;
+    padding: 0 10%;
 }
 
 .sobre-mim {
@@ -94,6 +94,7 @@ header nav a:hover {
 /* LISTAS */
 
 .listas {
+    width: auto;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -141,7 +142,6 @@ header nav a:hover {
     border-radius: 5px;
     width: 15vh;
     height: 25vh;
-    padding: 0 10px 10px 10px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -182,7 +182,6 @@ header nav a:hover {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    padding: 0 80px 0 20px;
     gap: 40px;
 }
 
@@ -231,8 +230,6 @@ header nav a:hover {
 
 .contatos {
     margin-top: 40px;
-    padding-left: 40px;
-    padding-right: 80px;
     display: flex;
     flex-direction: row;
     justify-content: center;
